@@ -19,3 +19,7 @@ plt.plot(x,y1,label = 'y=4')
 plt.annotate("(0.625,4)",(0.625,4),(0.7,15),arrowprops={"arrowstyle":"<-"})
 plt.show()
 
+if f(5/8)==4:
+     print("Correct Answer")
+else :
+     print("Wrong Answer")
