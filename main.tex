@@ -1,0 +1,79 @@
+\documentclass[twocolumn]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\title{Assignment 1}
+\author{Gollapudi Sasank CS21BTECH11019}
+
+\setlength{\columnsep}{2cm}
+
+\begin{document}
+
+\maketitle
+\section*{ Question 6 (a) :}
+\noindent Using properties of proportion , solve for $x$. Given $x$ is positive :
+\begin{equation*}
+\frac{2x+\sqrt{4x^2-1}}{2x-\sqrt{4x^2-1}} = 4 
+\end{equation*}
+
+\section*{Solution:}
+From the properties of proportion \\ 
+\begin{equation*}
+     \frac{a}{b}  =  \frac{c}{d} 
+     \Rightarrow 
+     \frac{a+b}{a-b} = \frac{c+d}{c-d} \hspace{40pt} -(1) \\
+\end{equation*}
+The Given Equation is :
+    \begin{equation*}
+    \centering
+        \frac{2x+\sqrt{4x^2-1}}{2x-\sqrt{4x^2-1}} = \frac {4}{1}
+    \end{equation*}
+    From (1) 
+\begin{equation*}
+        \frac {2x+\sqrt{4x^2-1}+2x-\sqrt{4x^2-1}}{2x+\sqrt{4x^2-1}-2x+\sqrt{4x^2-1}} = \frac {4+1}{4-1} \\
+\end{equation*}
+\begin{equation*}
+        \Rightarrow
+        \frac{4x}{2\sqrt{4x^2-1}} = \frac {5}{3} \\
+\end{equation*}
+\begin{equation*}
+        \Rightarrow
+        \frac{6x}{5} = \sqrt{4x^2-1} \\
+\end{equation*}
+\begin{equation*}
+    \Rightarrow
+        \frac{36x^2}{25} = 4x^2-1 \\
+\end{equation*}
+\begin{equation*}
+        \Rightarrow
+        1 = (4 - \frac{36}{25} )  x^2 \\
+\end{equation*}
+\begin{equation*}
+    \Rightarrow
+    x^2 =\frac{25}{64} \\ \\ \\ 
+\end{equation*}
+\begin{equation*}
+    \Rightarrow
+    x = \pm\frac{5}{8} \\
+\end{equation*}
+But Given $x$ is positive 
+\begin{equation*}
+  \Rightarrow x = \frac{5}{8} \\  
+\end{equation*}
+\section*{Verification with Graph:}
+If we draw the graph of 
+\begin{equation*} 
+y = f(x) = \frac{2x+\sqrt{4x^2-1}}{2x-\sqrt{4x^2-1}}
+\end{equation*}
+ and find point of intersection with $y$ = 4  , we get $x$ = 0.625 = $\frac{5}{8}$ \\ 
+\begin{figure}[h]
+\includegraphics[width=\columnwidth]{output.png}
+\caption{graph of y = f(x)}
+\end{figure}
+\begin{equation*}
+\therefore x = \frac{5}{8} = 0.625 
+\end{equation*}
+\end{document}
