@@ -10,7 +10,8 @@ int main()
     FILE *fp;
     fp = fopen("output.txt","w");
     fprintf(fp,"x\t\ty\n");
-    for(i=0.5;i<4;i=i+0.01) fprintf(fp,"%f\t\t%f\n",i,f(i));    
+    for(i=0.5;i<4;i=i+0.01) fprintf(fp,"%f\t\t%f\n",i,f(i));
+    fclose(fp);
     return 0;
 }
 float f(float x)
